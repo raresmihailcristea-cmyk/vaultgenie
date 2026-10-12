@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VaultGenie — Regulatory Compliance & Product Safety</title>
+  <meta name="description" content="European Union General Product Safety Regulation (GPSR), digital compliance, age suitability, and cryptography declaration for VaultGenie.">
+  <style>
+    :root {
+      --bg: #060a12;
+      --card-bg: rgba(255, 255, 255, 0.04);
+      --card-border: rgba(255, 255, 255, 0.1);
+      --accent: #10b981;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", sans-serif;
+      background: radial-gradient(circle at 50% 0%, #0d231e 0%, var(--bg) 80%);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 780px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 20px;
+      padding: 40px;
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+    }
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      margin-top: 0;
+      background: linear-gradient(135deg, #fff 20%, var(--accent) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .badge {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 999px;
+      background: rgba(16, 185, 129, 0.12);
+      color: var(--accent);
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+      border: 1px solid rgba(16, 185, 129, 0.25);
+    }
+    h2 {
+      font-size: 1.25rem;
+      color: #fff;
+      margin-top: 30px;
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 8px;
+    }
+    p, li { color: var(--text-muted); font-size: 0.95rem; }
+    strong { color: #fff; }
+    a { color: var(--accent); text-decoration: none; }
+    .info-grid {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 12px;
+      background: rgba(255,255,255,0.03);
+      padding: 20px;
+      border-radius: 12px;
+      border: 1px solid var(--card-border);
+      margin-top: 16px;
+    }
+    .info-label { font-weight: 700; color: #fff; }
+    .info-val { color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="badge">EU Regulation (EU) 2023/988 Compliance</div>
+    <h1>Regulations, Permits & Safety</h1>
+    <p><em>Official compliance disclosure for the European Union and international distribution.</em></p>
+
+    <h2>1. General Product Safety Regulation (GPSR)</h2>
+    <p>In accordance with Regulation (EU) 2023/988 on general product safety for digital applications distributed in the European Union, the economic operator and developer is declared below:</p>
+
+    <div class="info-grid">
+      <div class="info-label">Product Name</div>
+      <div class="info-val">VaultGenie</div>
+
+      <div class="info-label">Bundle Identifier</div>
+      <div class="info-val">com.vault.genie.app</div>
+
+      <div class="info-label">Developer / Manufacturer</div>
+      <div class="info-val">Rareș-Mihail Cristea</div>
+
+      <div class="info-label">Contact Email</div>
+      <div class="info-val"><a href="mailto:support@vaultgenie.app">support@vaultgenie.app</a></div>
+
+      <div class="info-label">Country of Origin</div>
+      <div class="info-val">Romania, European Union</div>
+
+      <div class="info-label">Target Platforms</div>
+      <div class="info-val">iOS 17+, iPadOS 17+, macOS 14+</div>
+    </div>
+
+    <h2 id="age-suitability">2. Age Suitability & Rating</h2>
+    <p>VaultGenie is rated <strong>4+ (All Ages / General Audience)</strong>. It is a utility software application. It contains:</p>
+    <ul>
+      <li>No violent, offensive, or adult themes</li>
+      <li>No gambling or simulated betting</li>
+      <li>No unmoderated social chat or public forums</li>
+      <li>No commercial third-party ads</li>
+    </ul>
+
+    <h2>3. Regulated Medical Devices Disclosure</h2>
+    <p>VaultGenie is an informational security and productivity tool. It does <strong>not</strong> function as a medical device under EU MDR (2017/745) or US FDA regulations.</p>
+
+    <h2>4. Export Administration Regulations (EAR)</h2>
+    <p>VaultGenie implements standard Apple CryptoKit, Keychain, and HTTPS cryptography strictly for data security and StoreKit 2 transactions. It is exempt under EAR Category 5, Part 2.</p>
+  </div>
+</body>
+</html>

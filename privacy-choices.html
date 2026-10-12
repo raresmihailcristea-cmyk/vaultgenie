@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VaultGenie — User Privacy Choices</title>
+  <meta name="description" content="User privacy controls, data sovereignty, and biometric choices in VaultGenie.">
+  <style>
+    :root {
+      --bg: #060a12;
+      --card-bg: rgba(255, 255, 255, 0.04);
+      --card-border: rgba(255, 255, 255, 0.1);
+      --accent: #10b981;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", sans-serif;
+      background: radial-gradient(circle at 50% 0%, #0d231e 0%, var(--bg) 80%);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 20px;
+      padding: 40px;
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+    }
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      margin-top: 0;
+      background: linear-gradient(135deg, #fff 20%, var(--accent) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .badge {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 999px;
+      background: rgba(16, 185, 129, 0.12);
+      color: var(--accent);
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+      border: 1px solid rgba(16, 185, 129, 0.25);
+    }
+    h2 {
+      font-size: 1.25rem;
+      color: #fff;
+      margin-top: 30px;
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 8px;
+    }
+    p, li { color: var(--text-muted); font-size: 0.95rem; }
+    strong { color: #fff; }
+    a { color: var(--accent); text-decoration: none; }
+    .choice-card {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="badge">Zero-Knowledge Data Sovereignty</div>
+    <h1>User Privacy Choices</h1>
+    <p><em>Effective Date: October 2026</em></p>
+    
+    <p>Because VaultGenie never collects, stores, or sells your personal data, you have total control over your encryption keys and data footprint.</p>
+
+    <h2>Your Privacy Controls</h2>
+
+    <div class="choice-card">
+      <h3 style="margin: 0 0 8px; color: #fff; font-size: 1.1rem;">1. "Do Not Sell or Share My Data" (CCPA / GDPR)</h3>
+      <p style="margin: 0;">VaultGenie does not sell, broker, or monetize your personal information. Zero tracking code exists in our applications.</p>
+    </div>
+
+    <div class="choice-card">
+      <h3 style="margin: 0 0 8px; color: #fff; font-size: 1.1rem;">2. Biometric Lock Management</h3>
+      <p style="margin: 0;">You can enable or disable Face ID / Touch ID at any time in VaultGenie Settings or via iOS <strong>Settings → Face ID & Passcode</strong>.</p>
+    </div>
+
+    <div class="choice-card">
+      <h3 style="margin: 0 0 8px; color: #fff; font-size: 1.1rem;">3. Instant Vault Purge</h3>
+      <p style="margin: 0;">You can wipe your entire vault instantly from the app settings, which removes all encrypted keys and records from your Keychain and on-device storage.</p>
+    </div>
+
+    <h2>Direct Privacy Contact</h2>
+    <p>For any data sovereignty inquiries, contact: <a href="mailto:support@vaultgenie.app">support@vaultgenie.app</a>.</p>
+  </div>
+</body>
+</html>

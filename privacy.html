@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VaultGenie — Privacy Policy</title>
+  <meta name="description" content="Official Privacy Policy for VaultGenie. Zero-Knowledge security, zero telemetry, no data collection.">
+  <style>
+    :root {
+      --bg: #060a12;
+      --card-bg: rgba(255, 255, 255, 0.04);
+      --card-border: rgba(255, 255, 255, 0.1);
+      --accent: #10b981;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", sans-serif;
+      background: radial-gradient(circle at 50% 0%, #0d231e 0%, var(--bg) 80%);
+      color: var(--text);
+      line-height: 1.65;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 20px;
+      padding: 40px;
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+    }
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      margin-top: 0;
+      background: linear-gradient(135deg, #fff 20%, var(--accent) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .badge {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 999px;
+      background: rgba(16, 185, 129, 0.12);
+      color: var(--accent);
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+      border: 1px solid rgba(16, 185, 129, 0.25);
+    }
+    h2 {
+      font-size: 1.25rem;
+      color: #fff;
+      margin-top: 30px;
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 8px;
+    }
+    p, li { color: var(--text-muted); font-size: 0.95rem; }
+    strong { color: #fff; }
+    a { color: var(--accent); text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="badge">Apple App Store Privacy Standard: Data Not Collected</div>
+    <h1>VaultGenie Privacy Policy</h1>
+    <p><em>Effective Date: October 2026 • Version 1.0</em></p>
+    
+    <p>This Privacy Policy outlines how <strong>VaultGenie</strong> ("the Application"), developed by <strong>Rareș-Mihail Cristea</strong>, safeguards your information on iOS, iPadOS, and macOS.</p>
+
+    <h2>1. Absolute Zero Data Collection</h2>
+    <p>VaultGenie was built upon a non-negotiable principle: <strong>your cryptographic keys, passwords, and finances belong solely to you</strong>:</p>
+    <ul>
+      <li><strong>Zero Telemetry:</strong> We do not track when you open the app, what items you store, or which websites you visit.</li>
+      <li><strong>Zero Server Storage:</strong> Your vault data is encrypted locally using Argon2id and AES-256-GCM. We operate zero cloud databases that store your credentials.</li>
+      <li><strong>No Analytics SDKs:</strong> There are no third-party tracking libraries, analytics trackers, or commercial advertising frameworks in the binary.</li>
+    </ul>
+
+    <h2>2. Face ID, Touch ID & Biometrics</h2>
+    <p>Biometric authentication is handled exclusively by Apple's LocalAuthentication framework. Biometric templates remain encrypted inside Apple's hardware Secure Enclave. VaultGenie never has access to raw biometric data.</p>
+
+    <h2>3. Credential AutoFill & Passkeys</h2>
+    <p>The AutoFill Credential Provider and Safari Extension operate within isolated iOS app extensions. Credentials are decrypted only when you authenticate with biometrics and select an item to insert.</p>
+
+    <h2>4. Receipt Scanner & Financial AI</h2>
+    <p>OCR recognition of receipts and AI subscription detection are computed <strong>locally on your device</strong> using Apple's Vision and CoreML frameworks. Images and receipts are never transmitted to external AI cloud APIs.</p>
+
+    <h2>5. In-App Purchases (StoreKit 2)</h2>
+    <p>Subscriptions and Lifetime Pass payments are processed directly by Apple. We never collect or store your credit card or billing credentials.</p>
+
+    <h2>6. Contact Developer</h2>
+    <p>If you have questions regarding this privacy policy, contact: <a href="mailto:support@vaultgenie.app">support@vaultgenie.app</a>.</p>
+  </div>
+</body>
+</html>
